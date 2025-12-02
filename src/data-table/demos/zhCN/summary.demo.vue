@@ -60,7 +60,7 @@ function createData(): RowData[] {
 
 const createSummary: DataTableCreateSummary = (pageData) => {
   return {
-    name: {
+    age: {
       value: h(
         'span',
         { style: { color: 'red' } },
